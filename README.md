@@ -6,6 +6,12 @@ Semantic memory storage and retrieval for humanoid robots. MemoBot enables robot
 
 The system is split into two primary components:
 
+<<<<<<< HEAD
+If import errors:
+uv pip install -e .
+
+uv pip install google-genai==1.63.0
+=======
 ```text
 ┌─────────────────┐                    ┌─────────────────┐
 │  Robot Client   │ ──(Raw TCP)──────▶ │  Mac/Linux      │
@@ -109,3 +115,4 @@ python memobot/robot/mock_audio_client_v2.py --host 127.0.0.1
 ## Legacy Backend Features
 
 *(Note: Earlier versions relied on a Docker Compose backend. You can still refer to `ARCHITECTURE.md` and `USER_MANUAL.md` for historical design docs, but the `mac_master_v10.py` flow is the current standard for low-latency realtime interaction.)*
+>>>>>>> 44c0c90c711afe2b76cc7433cadb1c86dc1f4b00
