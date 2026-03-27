@@ -309,5 +309,8 @@ Run with Ingest:
 python memobot/robot/mac_master_v7.py --realtime --ingest
 
 Without Ingest:
+uv pip install google-genai==1.63.0
+
+Then:
 python memobot/robot/mac_master_v10.py --realtime
 or: python -m memobot.robot.mac_master_v8 --realtime

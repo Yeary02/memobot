@@ -55,3 +55,6 @@ ingest_pipeline/talknet/demo/
 code_db/.git/
 code_db/index.db
 code_db/actions/
+
+# Local Vertex AI service account (do not commit)
+vertex_ai_service_account.json
